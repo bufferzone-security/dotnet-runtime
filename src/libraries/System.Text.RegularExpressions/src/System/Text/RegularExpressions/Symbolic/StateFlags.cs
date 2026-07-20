@@ -1,7 +1,7 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-namespace System.Text.RegularExpressions.Symbolic
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions.Symbolic
 {
     /// <summary>
     /// These flags provide context-independent information available for every state. They provide a fast way to evaluate

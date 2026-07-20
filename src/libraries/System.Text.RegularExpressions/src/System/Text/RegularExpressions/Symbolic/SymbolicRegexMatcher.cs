@@ -8,7 +8,7 @@ using System.Numerics;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace System.Text.RegularExpressions.Symbolic
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions.Symbolic
 {
     /// <summary>Represents a regex matching engine that performs regex matching using symbolic derivatives.</summary>
     internal abstract class SymbolicRegexMatcher

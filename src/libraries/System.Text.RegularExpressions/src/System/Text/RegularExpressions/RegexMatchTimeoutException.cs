@@ -4,7 +4,7 @@
 using System.ComponentModel;
 using System.Runtime.Serialization;
 
-namespace System.Text.RegularExpressions
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions
 {
     /// <summary>
     /// This is the exception that is thrown when a RegEx matching timeout occurs.

@@ -3,7 +3,7 @@
 
 using System.Diagnostics.CodeAnalysis;
 
-namespace System.Text.RegularExpressions
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions
 {
     internal static class ThrowHelper
     {

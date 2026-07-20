@@ -7,9 +7,10 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Numerics;
 using System.Runtime.CompilerServices;
+using System.Text;
 using System.Threading;
 
-namespace System.Text.RegularExpressions
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions
 {
     // The main function of RegexCharClass is as a builder to turn ranges, characters and
     // Unicode categories into a single string.  This string is used as a black box

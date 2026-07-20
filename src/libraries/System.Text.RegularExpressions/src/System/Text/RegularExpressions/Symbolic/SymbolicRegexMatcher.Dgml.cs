@@ -7,8 +7,9 @@ using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Net;
+using System.Text;
 
-namespace System.Text.RegularExpressions.Symbolic
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions.Symbolic
 {
     internal sealed partial class SymbolicRegexMatcher<TSet>
     {

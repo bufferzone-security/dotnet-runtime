@@ -5,7 +5,7 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Threading;
 
-namespace System.Text.RegularExpressions.Symbolic
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions.Symbolic
 {
     /// <summary>Utility class providing singleton <see cref="BDD"/>s for evaluating whether a character is part of a particular Unicode category.</summary>
     internal static class UnicodeCategoryConditions

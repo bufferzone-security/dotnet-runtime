@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-namespace System.Text.RegularExpressions.Symbolic
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions.Symbolic
 {
     /// <summary>Captures a state explored during matching.</summary>
     internal sealed class MatchingState<TSet> where TSet : IComparable<TSet>, IEquatable<TSet>

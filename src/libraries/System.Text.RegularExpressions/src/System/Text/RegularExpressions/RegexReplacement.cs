@@ -5,8 +5,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
+using System.Text;
 
-namespace System.Text.RegularExpressions
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions
 {
     /// <summary>
     /// The RegexReplacement class represents a substitution string for

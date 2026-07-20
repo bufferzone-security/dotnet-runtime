@@ -4,7 +4,7 @@
 using System.ComponentModel;
 using System.Runtime.Serialization;
 
-namespace System.Text.RegularExpressions
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions
 {
     /// <summary>
     /// An exception as a result of a parse error in a regular expression <see cref="RegularExpressions"/>, with

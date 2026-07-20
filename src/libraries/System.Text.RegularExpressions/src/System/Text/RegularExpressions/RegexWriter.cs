@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
-namespace System.Text.RegularExpressions
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions
 {
     /// <summary>Builds a block of regular expression codes (RegexCode) from a RegexTree parse tree.</summary>
     internal ref struct RegexWriter

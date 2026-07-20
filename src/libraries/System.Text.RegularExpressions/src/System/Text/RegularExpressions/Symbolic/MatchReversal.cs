@@ -3,7 +3,7 @@
 
 using System.Diagnostics;
 
-namespace System.Text.RegularExpressions.Symbolic
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions.Symbolic
 {
     /// <summary>Provides details on how a match may be processed in reverse to find the beginning of a match once a match's existence has been confirmed.</summary>
     internal readonly struct MatchReversalInfo<TSet> where TSet : IComparable<TSet>, IEquatable<TSet>

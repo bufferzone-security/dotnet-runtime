@@ -5,9 +5,9 @@
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
-using System.Text.RegularExpressions.Symbolic;
+using BUFFERZONE.SafeWorkspace.RegularExpressions.Symbolic;
 
-namespace System.Text.RegularExpressions
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions
 {
     public partial class Regex
     {
@@ -26,7 +26,7 @@ namespace System.Text.RegularExpressions
         }
 
         /// <summary>
-        /// Generates UnicodeCategoryRanges.cs for the namespace System.Text.RegularExpressions.Symbolic.Unicode
+        /// Generates UnicodeCategoryRanges.cs for the namespace BUFFERZONE.SafeWorkspace.RegularExpressions.Symbolic.Unicode
         /// in the given directory path. Only available in DEBUG mode.
         /// </summary>
         [ExcludeFromCodeCoverage(Justification = "Debug only")]

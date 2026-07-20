@@ -5,7 +5,7 @@ using System.Globalization;
 
 #pragma warning disable CA1823, CS0169, IDE0044 // Fields used via reflection
 
-namespace System.Text.RegularExpressions
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions
 {
     internal sealed class CompiledRegexRunner(CompiledRegexRunner.ScanDelegate scan, object[]? searchValues, CultureInfo? culture) : RegexRunner
     {

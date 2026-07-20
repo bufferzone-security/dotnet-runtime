@@ -4,7 +4,7 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Threading;
 
-namespace System.Text.RegularExpressions;
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions;
 
 /// <summary>Instructs the System.Text.RegularExpressions source generator to generate an implementation of the specified regular expression.</summary>
 /// <remarks>

@@ -3,7 +3,7 @@
 
 using System.ComponentModel;
 
-namespace System.Text.RegularExpressions
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions
 {
     [EditorBrowsable(EditorBrowsableState.Never)]
     public abstract class RegexRunnerFactory

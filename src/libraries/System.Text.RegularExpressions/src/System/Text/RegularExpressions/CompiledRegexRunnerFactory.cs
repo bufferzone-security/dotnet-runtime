@@ -4,7 +4,7 @@
 using System.Globalization;
 using System.Reflection.Emit;
 
-namespace System.Text.RegularExpressions
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions
 {
     internal sealed class CompiledRegexRunnerFactory(DynamicMethod scanMethod, object[]? searchValues, CultureInfo? culture) : RegexRunnerFactory
     {

@@ -3,7 +3,7 @@
 
 using System.Diagnostics;
 
-namespace System.Text.RegularExpressions.Symbolic
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions.Symbolic
 {
     /// <summary>Misc information of structural properties of a <see cref="SymbolicRegexNode{S}"/> that is computed bottom up.</summary>
     internal readonly struct SymbolicRegexInfo : IEquatable<SymbolicRegexInfo>

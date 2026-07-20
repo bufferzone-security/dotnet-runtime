@@ -16,7 +16,7 @@ using System.Threading;
 // only for debugging purposes, to make it easier to examine the IL that RegexCompiler emits.
 
 #if DEBUG
-namespace System.Text.RegularExpressions
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions
 {
     /// <summary>Compiles a Regex to an assembly that can be saved to disk.</summary>
     [RequiresDynamicCode("The RegexAssemblyCompiler type requires dynamic code to be enabled.")]

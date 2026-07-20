@@ -3,7 +3,7 @@
 
 using System.Diagnostics;
 
-namespace System.Text.RegularExpressions.Symbolic
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions.Symbolic
 {
     /// <summary><see cref="RegexRunnerFactory"/> for symbolic regexes.</summary>
     internal sealed class SymbolicRegexRunnerFactory : RegexRunnerFactory

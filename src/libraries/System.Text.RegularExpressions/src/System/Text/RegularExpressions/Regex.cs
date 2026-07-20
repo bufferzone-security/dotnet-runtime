@@ -10,10 +10,10 @@ using System.Reflection;
 using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
-using System.Text.RegularExpressions.Symbolic;
+using BUFFERZONE.SafeWorkspace.RegularExpressions.Symbolic;
 using System.Threading;
 
-namespace System.Text.RegularExpressions
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions
 {
     /// <summary>
     /// Represents an immutable regular expression. Also contains static methods that

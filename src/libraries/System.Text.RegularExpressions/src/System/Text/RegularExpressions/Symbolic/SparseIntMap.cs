@@ -4,7 +4,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace System.Text.RegularExpressions.Symbolic
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions.Symbolic
 {
     /// <summary>An insertion-ordered map that supports small int keys.</summary>
     /// <remarks>Uses a sparse array of the same size as the space of keys for efficient lookups.</remarks>

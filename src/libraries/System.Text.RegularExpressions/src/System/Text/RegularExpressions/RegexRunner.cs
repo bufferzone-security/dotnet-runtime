@@ -3,8 +3,9 @@
 
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using BUFFERZONE.SafeWorkspace.RegularExpressions;
 
-namespace System.Text.RegularExpressions
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions
 {
     /// <summary>
     /// Base class for source-generated regex extensibility
@@ -356,6 +357,11 @@ namespace System.Text.RegularExpressions
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         protected internal void CheckTimeout()
         {
+            if (runregex is CancellableRegex asyncRegex)
+            {
+                asyncRegex.CancellationToken.ThrowIfCancellationRequested();
+            }
+
             if (_checkTimeout && Environment.TickCount64 >= _timeoutOccursAt)
             {
                 ThrowRegexTimeout();

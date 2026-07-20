@@ -3,8 +3,9 @@
 
 using System.Collections;
 using System.Diagnostics;
+using System.Text;
 
-namespace System.Text.RegularExpressions
+namespace BUFFERZONE.SafeWorkspace.RegularExpressions
 {
     /// <summary>
     /// Represents the results from a single regular expression match.
